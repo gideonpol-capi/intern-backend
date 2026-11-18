@@ -1,0 +1,2 @@
+# Scripts and Python files keep Linux line endings, also when cloned on Windows.
+* text=auto eol=lf

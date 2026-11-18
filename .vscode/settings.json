@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "AGENTS.md": true,
+    ".claude": true,
+    ".cursor": true,
+    ".windsurf": true,
+    ".gemini": true,
+    ".task": true
+  },
+  "python.analysis.extraPaths": ["."],
+  "editor.rulers": [100]
+}

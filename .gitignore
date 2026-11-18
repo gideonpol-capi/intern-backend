@@ -1,0 +1,10 @@
+.env
+*.pyc
+__pycache__/
+.venv/
+firebase-service-account.json
+*.sqlite3
+.idea/
+.vscode/*
+!.vscode/settings.json
+.pytest_cache/

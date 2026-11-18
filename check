@@ -1,0 +1,5 @@
+#!/bin/sh
+# Usage: ./check        checks for the current task (and all earlier ones)
+#        ./check 2      checks for tasks 1 and 2 only
+# The containers must be running (docker compose up).
+exec docker compose exec web sh checks/run.sh "$@"
